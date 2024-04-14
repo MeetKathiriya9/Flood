@@ -97,3 +97,96 @@
 .main .sec-1 .box2 .sys{
     color: #18B7BE;
 }
+
+
+.blog{
+    width: 100%;
+    height: 1010px;
+    background-image: url("../images/bg2.png");
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.blog .h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 28px;
+}
+
+.blog .boxes{
+    display: grid ;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 0px 280px;
+    @media screen and (max-width:1024px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.blog .boxes .box{
+    border-radius: 18px;
+    background-color: white !important;
+    box-shadow: 0px 0px 11px -2px lightgrey;
+    transition: 0.4s all;
+}
+
+.blog .boxes .box:hover{
+    box-shadow: 0px 0px 12px 5px lightgrey;
+}
+
+.blog .boxes .box .clearfix{
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 22px 22px 0px
+}
+
+.blog .boxes .box .icon{
+    border: 3px solid #577883;
+    border-radius: 13px;
+    padding: 8px;
+    font-size: 0px;
+    font-weight: 900;
+    color: #577883;
+}
+
+.blog .boxes .box .title{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 10px;
+    color: #577883;
+}
+
+hr{
+    background-color: red;
+}
+
+.blog .boxes .box .desc{
+    font-size: 14px;
+    margin-top: 16px;
+    padding: 0px 22px 22px;
+}
+
+.blog .contact{
+    margin: 140px auto 0px;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    background: aqua;
+    width: 350px;
+    padding: 15px 0px;
+    background-color: #F9F7F0;
+}
+
+.blog .contact .h3{
+    font-size: 25px;
+    padding-bottom: 7px;
+    color: #113247;
+}
+
+.blog .contact .p1, .blog .contact .p2, .blog .contact .p3{
+    padding-bottom: 7px;
+    color: #2190A6;
+}

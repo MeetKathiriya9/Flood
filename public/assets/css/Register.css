@@ -1,0 +1,72 @@
+.register{
+    width: 100%;
+    height: 726px;
+    background-image: url("../images/bg1.png");
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    align-items: center;
+    display: grid;
+    padding: 0px 285px;
+}
+
+.register .box{
+    background-color: #F9F7F0;
+    align-items: center;
+    padding: 65px 140px;
+}
+
+.register .box .title{
+    font-size: 55px;
+    font-weight: 900;
+    color: #178CA4;
+}
+
+.register .box .divider2{
+    width: 4px;
+    background: #072A40;
+    height: 262px;
+    margin: 0px 120px;
+}
+
+.register .box .form .eml{
+    border: 1px solid grey;
+    padding: 10px 0px 9px 8px;
+    border-radius: 6px;
+    width: 267px;
+    margin-bottom: 18px;
+}
+
+.register .box .form .pwd{
+    border: 1px solid grey;
+    padding: 10px 0px 9px 8px;
+    border-radius: 6px;
+    width: 267px;
+}
+
+.register .box .form .registerbtn{
+    width: 270px;
+    font-size: 18px;
+    padding: 7px 0px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    background-color: #2190A6;
+    margin-top: 32px;
+    transition: .4s all;
+}
+
+.register .box .form .registerbtn:hover{
+    background-color: #214850;
+}
+
+.register .box .form .desc{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.register .box .form .desc .link{
+    color: #2190A6;
+}
