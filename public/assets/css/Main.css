@@ -1,0 +1,99 @@
+.main{
+    width: 100%;
+    height: 726px;
+    background-image: url("../images/bg1.png");
+    background-position: top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main .sec-1{
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+.divider{
+    height: 250px;
+    background-color: #072A40;
+    width: 6px;
+    margin: 0px 21px;
+}
+
+.main .sec-1 .box1{
+    text-align: end;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.main .sec-1 .box1 p{
+    color: #000000;
+    font-size: 28px;
+}
+
+.main .sec-1 .box1 .lg{
+    color: #178CA4;
+}
+
+.main .sec-1 .box1 .rg{
+    color: #18B7BE;
+}
+
+.main .sec-1 .box1 .lgbtn{
+    width: 270px;
+    font-size: 18px;
+    padding: 7px 0px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    background-color: #2190A6;
+    margin-top: 32px;
+    transition: .4s all;
+}
+
+.main .sec-1 .box1 .lgbtn:hover{
+    background-color: #072A40;
+}
+
+.main .sec-1 .box1 .rgbtn{
+    width: 270px;
+    font-size: 18px;
+    padding: 7px 0px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: 600;
+    background-color: #072A40;
+    margin-top: 12px;
+    transition: .4s all;
+}
+
+.main .sec-1 .box1 .rgbtn:hover{
+    background-color: #2190A6;
+}
+
+.main .sec-1 .box2 h1{
+    font-size: 45px;
+    line-height: 49px;
+    color: #072A40;
+    font-weight: 900;
+}
+
+.main .sec-1 .box2 p{
+    font-size: 15px;
+    width: 264px;
+    padding-top: 13px;
+}
+
+.main .sec-1 .box2 .mng{
+    color: #178CA4;
+}
+
+.main .sec-1 .box2 .sys{
+    color: #18B7BE;
+}
