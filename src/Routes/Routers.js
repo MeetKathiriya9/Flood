@@ -11,9 +11,9 @@ export default function Routers() {
         <Router>
             <Routes>
                 <Route path='/' element={<Main></Main>}></Route>
-                <Route path='home' element={<Home></Home>}></Route>
-                <Route path='login' element={<Login></Login>}></Route>
-                <Route path='register' element={<Register></Register>}></Route>
+                <Route path='/home' element={<Home></Home>}></Route>
+                <Route path='/login' element={<Login></Login>}></Route>
+                <Route path='/register' element={<Register></Register>}></Route>
             </Routes>
         </Router>
     )

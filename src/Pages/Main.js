@@ -9,8 +9,8 @@ export default function Main() {
         <div className="clearfix sec-1">
           <div className="flex1 box1">
             <p>Get started<br></br> by <span className='lg'>login</span> or <span className='rg'>register</span>.</p>
-            <Link to='login'><button className='lgbtn'>Login</button></Link><br></br>
-            <Link to='register'><button className='rgbtn'>Register</button></Link>
+            <Link to='/login'><button className='lgbtn'>Login</button></Link><br></br>
+            <Link to='/register'><button className='rgbtn'>Register</button></Link>
           </div>
           <div className='divider'></div>
           <div className="flex1 box2">
